@@ -15,10 +15,14 @@
     combos {
         compatible = "zmk,combos";
 
-        toggle3 {
+        toggle2 {
             bindings = <&tog 1>;
-            key-positions = <38 39>;
-            layers = <0 1>;
+            key-positions = <38 39 18>;
+        };
+
+        toggle1 {
+            bindings = <&tog 0>;
+            key-positions = <38 39 19>;
         };
     };
 
