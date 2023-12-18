@@ -16,7 +16,7 @@
         compatible = "zmk,combos";
 
         toggle3 {
-            bindings = <&tog 2>;
+            bindings = <&tog 1>;
             key-positions = <38 39>;
             layers = <0 3>;
         };
