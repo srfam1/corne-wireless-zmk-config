@@ -20,19 +20,14 @@
             key-positions = <38 39 18>;
         };
 
-        basic6 {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <38 39 5>;
+        special6 {
+            bindings = <&mo 3>;
+            key-positions = <38 39>;
         };
 
         toggle2 {
             bindings = <&tog 0>;
             key-positions = <39 38 19>;
-        };
-
-        special6 {
-            bindings = <&kp RS(NUMBER_6)>;
-            key-positions = <38 39 5 35>;
         };
     };
 
