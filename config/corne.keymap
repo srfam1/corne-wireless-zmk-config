@@ -9,9 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -57,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R             &kp T    &kp Y  &kp U      &kp I      &kp O    &kp P     &kp BSPC
-&kp ESC    &kp A  &kp S  &kp D         &kp F             &kp G    &kp H  &kp J      &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V             &kp B    &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                         &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2    &mo 3  &kp SPACE  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E          &kp R             &kp T    &kp Y  &kp U      &kp I      &kp O    &kp P     &kp BSPC
+&kp ESC    &kp A  &kp S  &kp D          &kp F             &kp G    &kp H  &kp J      &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp C          &kp V             &kp B    &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                         &kp RIGHT_ALT  &kp LEFT_CONTROL  &mo 2    &mo 3  &kp SPACE  &kp RALT
             >;
         };
 
